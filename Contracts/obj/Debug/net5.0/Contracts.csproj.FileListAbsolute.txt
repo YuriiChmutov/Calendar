@@ -1,0 +1,17 @@
+D:\Education\Net\WebReact\Calendar\Contracts\bin\Debug\net5.0\Contracts.deps.json
+D:\Education\Net\WebReact\Calendar\Contracts\bin\Debug\net5.0\Contracts.runtimeconfig.json
+D:\Education\Net\WebReact\Calendar\Contracts\bin\Debug\net5.0\Contracts.runtimeconfig.dev.json
+D:\Education\Net\WebReact\Calendar\Contracts\bin\Debug\net5.0\Contracts.dll
+D:\Education\Net\WebReact\Calendar\Contracts\bin\Debug\net5.0\ref\Contracts.dll
+D:\Education\Net\WebReact\Calendar\Contracts\bin\Debug\net5.0\Contracts.pdb
+D:\Education\Net\WebReact\Calendar\Contracts\bin\Debug\net5.0\Entities.dll
+D:\Education\Net\WebReact\Calendar\Contracts\bin\Debug\net5.0\Entities.pdb
+D:\Education\Net\WebReact\Calendar\Contracts\obj\Debug\net5.0\Contracts.csproj.AssemblyReference.cache
+D:\Education\Net\WebReact\Calendar\Contracts\obj\Debug\net5.0\Contracts.GeneratedMSBuildEditorConfig.editorconfig
+D:\Education\Net\WebReact\Calendar\Contracts\obj\Debug\net5.0\Contracts.AssemblyInfoInputs.cache
+D:\Education\Net\WebReact\Calendar\Contracts\obj\Debug\net5.0\Contracts.AssemblyInfo.cs
+D:\Education\Net\WebReact\Calendar\Contracts\obj\Debug\net5.0\Contracts.csproj.CoreCompileInputs.cache
+D:\Education\Net\WebReact\Calendar\Contracts\obj\Debug\net5.0\Contracts.dll
+D:\Education\Net\WebReact\Calendar\Contracts\obj\Debug\net5.0\ref\Contracts.dll
+D:\Education\Net\WebReact\Calendar\Contracts\obj\Debug\net5.0\Contracts.pdb
+D:\Education\Net\WebReact\Calendar\Contracts\obj\Debug\net5.0\Contracts.genruntimeconfig.cache

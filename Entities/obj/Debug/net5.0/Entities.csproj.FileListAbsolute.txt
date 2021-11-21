@@ -1,0 +1,15 @@
+D:\Education\Net\WebReact\Calendar\Entities\bin\Debug\net5.0\Entities.deps.json
+D:\Education\Net\WebReact\Calendar\Entities\bin\Debug\net5.0\Entities.runtimeconfig.json
+D:\Education\Net\WebReact\Calendar\Entities\bin\Debug\net5.0\Entities.runtimeconfig.dev.json
+D:\Education\Net\WebReact\Calendar\Entities\bin\Debug\net5.0\Entities.dll
+D:\Education\Net\WebReact\Calendar\Entities\bin\Debug\net5.0\ref\Entities.dll
+D:\Education\Net\WebReact\Calendar\Entities\bin\Debug\net5.0\Entities.pdb
+D:\Education\Net\WebReact\Calendar\Entities\obj\Debug\net5.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+D:\Education\Net\WebReact\Calendar\Entities\obj\Debug\net5.0\Entities.AssemblyInfoInputs.cache
+D:\Education\Net\WebReact\Calendar\Entities\obj\Debug\net5.0\Entities.AssemblyInfo.cs
+D:\Education\Net\WebReact\Calendar\Entities\obj\Debug\net5.0\Entities.csproj.CoreCompileInputs.cache
+D:\Education\Net\WebReact\Calendar\Entities\obj\Debug\net5.0\Entities.dll
+D:\Education\Net\WebReact\Calendar\Entities\obj\Debug\net5.0\ref\Entities.dll
+D:\Education\Net\WebReact\Calendar\Entities\obj\Debug\net5.0\Entities.pdb
+D:\Education\Net\WebReact\Calendar\Entities\obj\Debug\net5.0\Entities.genruntimeconfig.cache
+D:\Education\Net\WebReact\Calendar\Entities\obj\Debug\net5.0\Entities.csproj.AssemblyReference.cache
