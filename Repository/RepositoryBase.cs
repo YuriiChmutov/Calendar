@@ -2,8 +2,11 @@
 using Entities;
 using Microsoft.EntityFrameworkCore;
 using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
+using System.Threading.Tasks;
+using Entities.Models;
 
 namespace Repository
 {
@@ -16,30 +19,31 @@ namespace Repository
             RepositoryContext = repositoryContext;
         }
         
-        public IQueryable<T> FindAll()
+        public async Task<List<ToDo>> FindAll()
         {
             // return this.RepositoryContext.Set<T>().AsNoTracking();
-            return (IQueryable<T>) this.RepositoryContext.Tasks;
+            return await Task.Run(() => this.RepositoryContext.Tasks.ToListAsync());
         }
 
-        public IQueryable<T> FindByCondition(Expression<Func<T, bool>> expression)
+        public async Task<List<T>> FindByCondition(Expression<Func<T, bool>> expression)
         {
-            return this.RepositoryContext.Set<T>().Where(expression).AsNoTracking();
+            return await Task.Run(() => 
+                this.RepositoryContext.Set<T>().Where(expression).AsNoTracking().ToListAsync());
         }
         
-        public void Create(T entity)
+        public async Task Create(T entity)
         {
-            this.RepositoryContext.Set<T>().Add(entity);
+            await Task.Run(() => this.RepositoryContext.Set<T>().Add(entity));
         }
         
-        public void Update(T entity)
+        public async Task Update(T entity)
         {
-            this.RepositoryContext.Set<T>().Update(entity);
+            await Task.Run(() => this.RepositoryContext.Set<T>().Update(entity));
         }
         
-        public void Delete(T entity)
+        public async Task Delete(T entity)
         {
-            this.RepositoryContext.Set<T>().Remove(entity);
+            await Task.Run(() => this.RepositoryContext.Set<T>().Remove(entity));
         }
     }
 }

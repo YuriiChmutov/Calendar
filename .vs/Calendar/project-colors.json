@@ -15,7 +15,17 @@
       "ProjectGuid": "f518b1a8-c4cf-4fb9-97c5-ea4e4dea9033",
       "DisplayName": "Entities",
       "ColorIndex": 1
+    },
+    "7c1a451d-7a48-434b-9e57-1a527fbd288f": {
+      "ProjectGuid": "7c1a451d-7a48-434b-9e57-1a527fbd288f",
+      "DisplayName": "Contracts",
+      "ColorIndex": 2
+    },
+    "3309f661-ee0f-47e1-a94a-7b8caf5366e3": {
+      "ProjectGuid": "3309f661-ee0f-47e1-a94a-7b8caf5366e3",
+      "DisplayName": "Repository",
+      "ColorIndex": 3
     }
   },
-  "NextColorIndex": 2
+  "NextColorIndex": 4
 }
