@@ -107,21 +107,5 @@ namespace Calendar.Controllers
             await _repositoryWrapper.ToDo.Update(itemFromDb);
             _repositoryWrapper.Save();
         }
-        
-        public static async Task<ActionResult> GetErrorResponse(Exception ex)
-        {
-            var error = new ProblemDetails
-            {
-                Title = "An error occurred((((",
-                Detail = ex.Message,
-                Status = 500,
-                Type = "https://httpstatuses.com/500"
-            };
-
-            return await Task.Run(() => new ObjectResult(error)
-            {
-                StatusCode = 500
-            });
-        }
     }
 }
